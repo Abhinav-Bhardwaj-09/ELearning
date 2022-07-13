@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks;
+package JavaDeepDiveBuildingBlocks.typeCasting;
 
 /**
  * Created by IntelliJ IDEA
