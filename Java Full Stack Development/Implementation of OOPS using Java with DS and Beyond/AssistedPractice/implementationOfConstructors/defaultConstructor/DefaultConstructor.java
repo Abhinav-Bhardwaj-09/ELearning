@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.AssistedPractice.implementationOfConstructors.defaultConstructor;
+package AssistedPractice.implementationOfConstructors.defaultConstructor;
 
 /**
  * Created by IntelliJ IDEA

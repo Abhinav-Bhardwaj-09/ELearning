@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.AssistedPractice.implementationOfConstructors.userDefinedConstructor;
+package AssistedPractice.implementationOfConstructors.userDefinedConstructor;
 
 /**
  * Created by IntelliJ IDEA

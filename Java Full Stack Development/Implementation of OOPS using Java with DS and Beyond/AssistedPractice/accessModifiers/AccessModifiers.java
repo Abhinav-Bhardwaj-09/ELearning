@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.AssistedPractice.accessModifiers;
+package AssistedPractice.accessModifiers;
 
 /**
  * Created by IntelliJ IDEA

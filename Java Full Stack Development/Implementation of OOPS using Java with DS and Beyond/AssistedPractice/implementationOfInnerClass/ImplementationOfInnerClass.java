@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.AssistedPractice.implementationOfInnerClass;
+package AssistedPractice.implementationOfInnerClass;
 
 
 

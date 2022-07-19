@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.NonAssistedPractice.arithmeticCalculator;
+package NonAssistedPractice.arithmeticCalculator;
 
 import java.util.Scanner;
 

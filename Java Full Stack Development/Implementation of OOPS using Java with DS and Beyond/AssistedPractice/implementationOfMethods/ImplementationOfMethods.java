@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.AssistedPractice.implementationOfMethods;
+package AssistedPractice.implementationOfMethods;
 
 /**
  * Created by IntelliJ IDEA

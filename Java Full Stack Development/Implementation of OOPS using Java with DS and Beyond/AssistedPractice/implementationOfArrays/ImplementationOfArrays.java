@@ -1,4 +1,4 @@
-package JavaDeepDiveBuildingBlocks.AssistedPractice.implementationOfArrays;
+package AssistedPractice.implementationOfArrays;
 
 import java.util.Scanner;
 
