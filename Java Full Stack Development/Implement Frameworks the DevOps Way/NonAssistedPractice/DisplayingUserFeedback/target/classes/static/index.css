@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2vw;
+}
+.formClass {
+    padding: 2vw;
+    text-align: justify-all;
+    margin: 5vw 0 0 36vw;
+    padding: 2vw;
+}
+input, textarea{
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 0.7vw;
+    font-size: 1.2vw;
+}
+label {
+    font-size: 1.2vw;
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: rgb(51, 214, 51);
+    color: black;
+    padding: 0.6vw;
+    border-radius: .4vw;
+    font-size: 0.9vw;
+    text-align: center;
+
+}
+button:hover {
+    background-color: rgb(19, 137, 19);
+    color: white;
+    padding: 0.6vw;
+    border-radius: .4vw;
+    font-size: 1.2vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
