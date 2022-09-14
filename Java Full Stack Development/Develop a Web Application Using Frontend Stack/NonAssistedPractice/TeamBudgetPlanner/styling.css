@@ -2,6 +2,10 @@ body {
   background-image: url("./assets/pexels-asad-photo-maldives-457882.jpg");
 }
 
+.back {
+  margin-left: 0;
+}
+
 .contain {
   max-width: 1170px;
   margin: 2vw auto 0 auto;
