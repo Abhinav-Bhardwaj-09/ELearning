@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styling.css" />
+    <script src="./script.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Team Manager Dashboard</title>
+  </head>
+  <body
+    style="
+      background-image: url('./assets/pexels-asad-photo-maldives-457882.jpg');
+    "
+  >
+    <h1 class="pageHeading">Team Manager Dashboard</h1>
+
+    <div class="contain">
+      <h2 class="form-headline">Add Expense</h2>
+      <form id="submit-form">
+        <p>
+          <input
+            class="form-input"
+            type="text"
+            name="teamName"
+            id="teamName"
+            required
+            placeholder="Your Team's Name*"
+          />
+          <small class="name-error"></small>
+        </p>
+        <p>
+          <input
+            class="form-input"
+            type="text"
+            name="vendor"
+            id="vendor"
+            placeholder="Vendor's Name*"
+            required
+          />
+          <small class="name-error"></small>
+        </p>
+        <p class="full-width">
+          <input
+            class="form-input"
+            type="text"
+            name="totalExpenses"
+            id="totalExpenses"
+            placeholder="Approximate figure of total expenses*"
+            required
+          />
+          <small class="name-error"></small>
+        </p>
+        <p class="full-width">
+          <textarea
+            minlength="2"
+            cols="30"
+            rows="7"
+            name="details"
+            id="details"
+            placeholder="Deals Details*"
+            required
+          ></textarea>
+          <small class="name-error"></small>
+        </p>
+
+        <p class="full-width">
+          <input
+            type="submit"
+            class="submit-btn"
+            value="Add"
+            onclick="handleAddExpense()"
+          />
+          <button class="reset-btn" type="reset">Reset</button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
