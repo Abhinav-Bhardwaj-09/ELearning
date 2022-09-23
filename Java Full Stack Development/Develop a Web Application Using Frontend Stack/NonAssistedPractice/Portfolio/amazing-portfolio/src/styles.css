@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1616141893496-fbc65370493e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

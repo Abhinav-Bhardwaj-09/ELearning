@@ -1,0 +1,27 @@
+<form>
+  <h3>Create account</h3>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; width: 100%">
+    <div>
+      <label for="firstname">First Name</label>
+      <input type="text" placeholder="First Name" id="firstname" />
+    </div>
+
+    <div style="float: right">
+      <label for="lastname">Last Name</label>
+      <input type="text" placeholder="Last Name" id="lastname" />
+    </div>
+  </div>
+
+  <label for="username">Username</label>
+  <input type="text" placeholder="Email or Phone" id="username" />
+
+  <label for="password">Password</label>
+  <input type="password" placeholder="Password" id="password" />
+
+  <div class="text">
+    Already have an account? &nbsp;<a [routerLink]="['/signin']">Sign in</a>
+  </div>
+
+  <button style="color: #080710" (click)="navigate()">Register</button>
+</form>

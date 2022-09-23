@@ -1,0 +1,14 @@
+<form>
+  <h3>Sign in</h3>
+
+  <label for="username">Username</label>
+  <input type="text" placeholder="Email or Phone" id="username" />
+
+  <label for="password">Password</label>
+  <input type="password" placeholder="Password" id="password" />
+
+  <div class="text">
+    Don't have an account? &nbsp;<a [routerLink]="['/register']">Create One</a>
+  </div>
+  <button style="color: #080710" (click)="navigate()">Log In</button>
+</form>

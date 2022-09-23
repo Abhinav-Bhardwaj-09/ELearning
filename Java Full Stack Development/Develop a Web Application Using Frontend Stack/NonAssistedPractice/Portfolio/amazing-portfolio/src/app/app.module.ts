@@ -1,24 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SigninComponent } from './homepage/signin/signin.component';
-import { SignupComponent } from './homepage/signup/signup.component';
-import { AboutUsComponent } from './homepage/about-us/about-us.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { ContactusComponent } from './homepage/contactus/contactus/contactus.component';
+import { SigninComponent } from './signin/signin.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SigninComponent,
-    SignupComponent,
-    AboutUsComponent,
-    HomepageComponent,
-    ContactusComponent,
+  declarations: [AppComponent, SigninComponent, RegisterComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule.forRoot([
+      { path: 'signin', component: SigninComponent },
+      { path: 'register', component: RegisterComponent },
+      { path: '', pathMatch: 'full', component: AppComponent },
+    ]),
   ],
-  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
