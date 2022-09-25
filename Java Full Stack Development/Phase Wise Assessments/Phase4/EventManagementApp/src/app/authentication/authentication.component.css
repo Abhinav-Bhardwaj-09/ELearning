@@ -51,6 +51,7 @@ input {
   outline: 2px solid #0001;
   background-color: #ffffff0d;
   box-shadow: 19px 19px 42px #d9d9d9, -19px -19px 42px #ffffff;
+  color: white;
 }
 
 ::placeholder {
@@ -59,10 +60,12 @@ input {
 
 input:hover {
   outline: 2px solid #0001;
+  color: white;
 }
 
 .form-control {
   background: transparent;
+  color: white;
 }
 
 a.animated-button:link:after,
