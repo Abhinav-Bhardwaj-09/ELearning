@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Verify setup') {
+            steps {
+                echo ' All verification done successfully'
+            }
+        }
+        
+        stage('Build application') {
+            steps {
+                echo ' Application build successfully'
+            }
+        }
+        
+        stage('Test app') {
+            steps {
+                echo ' test the application successfully'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                echo ' Deploy the application successfully'
+            }
+        }
+        
+    }
+}
+
+
